@@ -6,8 +6,8 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     font-size: 16px;
-     font-family: Arial;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
  }
  
  img {
@@ -40,8 +40,9 @@
      padding: 20px;
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
+     text-align: justify;
      flex-wrap: wrap;
+     justify-content: space-between;
  }
  
  .services .cont-services .service:hover {
@@ -98,17 +99,21 @@
      display: block;
      width: 100%;
      text-align: center;
-     font-size: 1.05em;
      padding: 20px 0;
      text-decoration: none;
-     color: rgb(38, 94, 197);
      transition: all .3s ease;
+     text-transform: uppercase;
+     border: 1px solid #9dc548;
+     color: #686868;
+     background-color: rgba(255, 255, 255, 0);
+     border-color: #9dc548;
+     margin-top: 20%;
  }
  
  .services .cont-services .service:hover>.link-modal {
      text-transform: uppercase;
      border: 1px solid #9dc548;
-     color: #686868;
+     color: #fff;
      background-color: rgba(255, 255, 255, 0);
      border-color: #9dc548;
  }
