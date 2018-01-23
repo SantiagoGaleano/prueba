@@ -46,36 +46,9 @@
         })
     </script>
 
-    <style>
-        @import url(https://fonts.googleapis.com/css?family=Erica+One);
-        .aprende {
-            cursor: default;
-            position: absolute;
-            top: 65%;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            max-width: 100%;
-            height: auto;
-            margin: auto;
-            display: block;
-            -webkit-animation: bounce .9000000000000s ease infinite alternate;
-            font-family: 'Erica One', cursive;
-            font-size: 80px;
-            color: rgb(82, 228, 25);
-            text-align: center;
-            line-height: 100px;
-            text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, .6);
-        }
-        /* ANIMATION */
-        
-        @-webkit-keyframes bounce {
-            100% {
-                top: -30px;
-                text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 #CCC, 0 7px 0 #CCC, 0 8px 0 #CCC, 0 9px 0 #CCC, 0 30px 30px rgba(0, 0, 0, .3);
-            }
-        }
-    </style>
+    <script src="js/accesibilidad.js"></script>
+
+
 
 </head>
 <!--/head-->
@@ -136,6 +109,9 @@
                 <a href="#">Contáctenos</a>
                 <img src="images/bienvenidos.gif" alt="Contáctenos">
             </div>
+
+            <button onclick="fondoGris()">Poner Gris</button>
+            <button onclick="fondoBlan()">Volver original</button>
         </div>
     </header>
 
@@ -166,6 +142,7 @@
                     <div class="carousel-caption">
 
                         <div>
+
 
                             <img class="animated bounceInUp" src="images/home/1.png" alt="" />
 
